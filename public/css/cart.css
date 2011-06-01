@@ -1,0 +1,65 @@
+#content ul {
+	border-bottom	: 1px dashed #666;
+	margin-bottom	: 10px;
+	float			: left;
+}
+
+#content ul li {
+	display			: block;
+	width			: 900px;
+	height			: 100px;
+	margin-bottom	: 10px;
+	clear			: both;
+	background		: #FDFDFD;
+}
+
+#content li img {
+	display			: block;
+	float			: left;
+	width			: 100px;
+	height			: 100px;
+}
+
+#content li div {
+	display			: block;
+	float			: left;
+	height			: 100px;
+	margin-left		: 10px;
+}
+
+#content li strong {
+	display			: block;
+	font-weight		: bold;
+	font-size		: 1.1em;
+}
+
+#content li span.author, #content li span.price {
+	display			: block;
+	margin-bottom	: 12px;
+}
+
+#content li a {
+	padding			: 5px;
+	background		: #CC3333;
+	text-align		: center;
+	color			: #FFF;
+	border-radius	: 6px;
+	font-size		: 0.8em;
+}
+
+span.total {
+	display			: block;
+	float			: right;
+	width			: 150px;
+	padding			: 5px;
+	background		: #FDFDFD;
+	text-align		: right;
+}
+
+a.checkout {
+	padding			: 5px;
+	border-radius	: 5px;
+	background		: #0F4C83;
+	color			: #FFF;
+	font-size		: 0.8em;
+}

@@ -1,0 +1,59 @@
+#content ul li {
+	display			: block;
+	float			: left;
+	width			: 200px;
+	height			: 265px;
+	box-shadow		: 1px 2px 4px rgb( 0 , 0 , 0 );
+	border-radius	: 6px;
+	border			: 1px solid #CCC;
+	background		: #EEE url("../img/pattern.jpg") repeat-x;
+	margin			: 0px 20px 20px 0px;
+}
+
+#content dt {
+	display			: block;
+	padding			: 5px 0px;
+	color			: #333;
+	font-weight		: bold;
+	margin-left		: 10px;
+}
+
+#content dd {
+	clear			: both;
+	font-size		: 0.5em;
+	margin			: 5px 10px;
+}
+
+#content dd.by-price {
+	display			: block;
+	height			: 16px;
+}
+
+#content dd.buy {
+	padding			: 0px 60px;
+}
+
+#content dd span.by {
+	float			: left;
+}
+
+#content dd span.price {
+	float			: right;
+}
+
+#content img {
+	display			: block;
+	width			: 180px;
+	height			: 180px;
+	background		: #FFF;
+}
+
+#content li a.buy {
+	clear			: both;
+	text-align		: center;
+	color			: #FFF;
+	font-size		: 1.3em;
+	padding			: 5px;
+	background		: #0F4C83;
+	border-radius	: 6px;
+}
